@@ -23,6 +23,15 @@ Set the Apikey in `settings.py` and start the bot
 python daneel.py start
 ```
 
+Extending Filters
+------
+
+To enhace bot filters, you can add regex or blacklisted word to mlist variable
+
+```python
+mlist=[r'[0-9A-Za-z]{33,}', ]
+```
+
 License
 -------
 
