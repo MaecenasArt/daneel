@@ -1,0 +1,30 @@
+Daneel
+======
+
+Description
+-----------
+
+Daneel is a simple anti-scam bot for Telegram, which can be used to remove
+public messages which includes Ethereum and Bitcoin address.
+
+Installation
+----------
+
+Daneel just depends on `python-telegram-bot` lib to run_bot
+You can ejecute `pip install -r requirements.txt` to install it
+
+Usage
+-------------
+
+You need to get a Telegram Apikey from [BotFather](https://telegram.me/botfather)
+Set the Apikey in `settings.py` and start the bot
+
+```python
+python daneel.py start
+```
+
+License
+-------
+
+This package is distributed under BSD License.
+See [LICENSE](https://github.com/MaecenasArt/daneel/blob/master/LICENSE)

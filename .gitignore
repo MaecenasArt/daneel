@@ -1,0 +1,8 @@
+*env
+*.pyc
+*.nja
+*.db
+*.pid
+*.bkp
+*.log
+local_settings.py
