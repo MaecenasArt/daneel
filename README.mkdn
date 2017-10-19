@@ -10,8 +10,9 @@ public messages which includes Ethereum and Bitcoin address.
 Installation
 ----------
 
-Daneel just depends on `python-telegram-bot` lib to run_bot
-You can ejecute `pip install -r requirements.txt` to install it
+Daneel just depends on `python-telegram-bot` lib to run_bot.
+
+You can execute `pip install -r requirements.txt` to install it
 
 Usage
 -------------
@@ -26,7 +27,7 @@ python daneel.py start
 Extending Filters
 ------
 
-To enhace bot filters, you can add regex or blacklisted word to mlist variable
+To enhance bot filters, you can add regex or blacklisted word to mlist variable
 
 ```python
 mlist=[r'[0-9A-Za-z]{33,}', ]
