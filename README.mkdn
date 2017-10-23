@@ -7,6 +7,12 @@ Description
 Daneel is a simple anti-scam bot for Telegram, which can be used to remove
 public messages which includes Ethereum and Bitcoin address.
 
+Simply use it
+----------
+
+Just invite @crowdsalewatcher_bot to your Telegram channel!
+
+
 Installation
 ----------
 

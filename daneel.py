@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from telegram.ext import Updater, MessageHandler, Filters
 from settings import api_token, logLevel
 import sys
@@ -15,7 +16,7 @@ def delete_method(bot, update):
         return
 
     log.debug("It contains text: %s" % update.message.text)
-    mlist=[r'[0-9A-Za-z]{33,}', ]
+    mlist=[r'[ˆ0x][0-9A-Za-z]{40,}', ]
 
     for i in mlist:
         if re.search(i, update.message.text):
