@@ -16,7 +16,7 @@ def delete_method(bot, update):
         return
 
     log.debug("It contains text: %s" % update.message.text)
-    mlist=[r'[ˆ0x][0-9A-Za-z]{40,}', ]
+    mlist=[r'^[0x][0-9A-Za-z]{40,42}$', r'^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$', ]
 
     for i in mlist:
         if re.search(i, update.message.text):

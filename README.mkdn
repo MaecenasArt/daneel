@@ -36,7 +36,7 @@ Extending Filters
 To enhance bot filters, you can add regex or blacklisted word to mlist variable
 
 ```python
-mlist=[r'[0-9A-Za-z]{33,}', ]
+mlist=[r'^[0x][0-9A-Za-z]{40,42}$', ]
 ```
 
 License
